@@ -1,5 +1,5 @@
-
-//Sketch based on work done by Salvador_AC on the arduino 
+//Sketch based on work done by Salvador AC.
+Este es una driver de hardwares para controlar un escaner galvo con el protocolo XY2_100.h para Marlin 1.0 
 
 
 #include <XY2_100.h>
@@ -21,7 +21,7 @@ XY2_100 galvo;
 float difference[NUM_AXIS]={  0.0, 0.0, };
 static float destination[NUM_AXIS] = {  0.0, 0.0, };
 static float current_position[NUM_AXIS] = {  0.0, 0.0, };
-//8=============D
+//=============
 
 void setup() {
  // Serial.begin(115200);
@@ -31,7 +31,7 @@ void setup() {
 
 }
 
-//8=============D
+//=============
 
 void loop() {
 
@@ -42,7 +42,7 @@ void loop() {
 
 }
 
-//8=============D
+//=============
 
 void getDataFromPC() {
 
@@ -74,7 +74,7 @@ void getDataFromPC() {
   }
 }
 
-//8=============D
+//=============
 
 void processData() // for data type "<float, float, int>" 
 {
@@ -90,7 +90,7 @@ void processData() // for data type "<float, float, int>"
    //velServoAngle = atoi(strtokIndx);        // convert this part to an <1233,3223>integer (string to int)
 }
 
-//8=============D
+//=============
 
 void replyToPC() {
 
@@ -147,3 +147,4 @@ void replyToPC() {
   //delay(2.5);
 //}
 }
+
