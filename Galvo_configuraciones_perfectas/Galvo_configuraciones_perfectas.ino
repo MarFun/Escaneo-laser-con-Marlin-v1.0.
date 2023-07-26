@@ -1,7 +1,6 @@
 
-//Sketch based on work done by Robin2 on the arduino forum  <1233,3223> <0,0>
-//more info here
-//https://forum.arduino.cc/index.php?topic=225329.msg1810764#msg1810764
+//Sketch based on work done by Salvador_AC on the arduino 
+
 
 #include <XY2_100.h>
 #define NUM_AXIS 2
