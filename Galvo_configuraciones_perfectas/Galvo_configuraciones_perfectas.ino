@@ -1,6 +1,6 @@
 //Sketch based on work done by Salvador AC.
-Este es una driver de hardwares para controlar un escaner galvo con el protocolo XY2_100.h para Marlin 1.0 
 
+//Este es un programa para un escaner galvo con el protocolo XY2_100.h para Marlin 1.0.6 
 
 #include <XY2_100.h>
 #define NUM_AXIS 2
