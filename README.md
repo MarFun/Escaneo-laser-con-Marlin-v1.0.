@@ -10,7 +10,6 @@ https://youtu.be/U66adnm1WTk
 
 https://youtu.be/PKqUxdHyHbo 
 
-https://youtu.be/bomNYLYO-Y0
 
 
 
